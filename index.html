@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpenkruiser</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo">AlpenKruiser</a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:9;" class="active">Home</a>
+            <a href="#about" style="--i:10;">About</a>
+            <a href="#products" style="--i:11;">Products</a>
+            <a href="#contact" style="--i:12;">Contact</a>
+        </nav>
+    </header>
+
+<section class="home" id="home">
+    <div class="home-content">
+        <h1>Wij zijn AlpenKruiser</h1>
+        <h3>Gespecializeerd in vouwwagens</h3>
+        <p>Alpenkruiser, al jaren dé referentie voor avontuurlijk,
+        comfortabel & ﬂexibel kamperen, introduceert en unieke en
+        nieuwe serie modellen! De reeks bestaat uit een aantal
+        vouwwagens die comfortabel & ﬂexibel kamperen toegankelijk maakt
+        voor iedereen.
+        </p>
+        <div class="btn">
+            <a href="#about" style="--i:7;">About</a>
+            <a href="#contact" style="--i:8;">contact</a>
+        </div>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="img/about.jpeg" alt="">
+    </div>
+
+    <div class="about-content">
+        <h2 class="heading">Over <span>Ons</span></h2>
+        <h3>Hallo, Dit is Alpenkruiser.</h3>
+        <p>Ruim 60 jaar na de introductie van on[e eerste vouwwagens
+        blijven we bij Alpenkruiser innoveren en verbeteren, wat je
+        terug ziet in onze lijn. De laatste vernieuwende modellen
+        benadrukken nu nog meer avontuur, de vrijIeid en ruimtelijke
+        aspecten en dat allemaal vanuit elementen die mooi passen bij het
+        gevoel, design en functionaliteiten van onze modellen: we've got
+        the elements right!
+        </p>
+        <div class="btn">
+            <a href="#products">Onze Producten</a>
+
+        </div>
+    </div>
+</section>
+
+<section class="products" id="products">
+    <h2 class="heading">Top <span>Modellen</span></h2>
+
+    <div class="products-container">
+        <div class="products-box">
+            <img src="img/Top_Modellen01.jpg" alt="">
+
+            <div class="products-layer">
+                <h4>WaterFront</h4>
+                <p>De WaterFront is een erg aavontuurlijk type tent die makkelijk op en aftebreken valt.</p>
+                <a href="waterfront.html"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+        <div class="products-box">
+            <img src="img/Top_Modellen02.png" alt="">
+
+            <div class="products-layer">
+                <h4>OpenAir</h4>
+                <p>Als je graag naar de sterren kijkt is dit een mooie tent voor jou.</p>
+                <a href="openair.html"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+        <div class="products-box">
+            <img src="img/Top_Modellen03.png" alt="">
+
+            <div class="products-layer">
+                <h4>CampFire</h4>
+                <p>Met deze tent kun je altijd droog een kampvuur organiseren.</p>
+                <a href="campfire.html"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="testimonial-container">
+    <h2 class="heading">Andere <span>Modellen</span></h2>
+
+    <div class="testimonial-wrapper">
+        <div class="testimonial-box mySwiper">
+            <div class="testimonial-content swiper-wrapper">
+                <div class="testimonial-slide swiper-slide">
+                    <a href="allure.html"><img src="img/testimonial01.png" alt=""></a>
+                    <h3>Allure</h3>
+                    <p>De Allure is een grote tent die voor veel man geschikt is.</p>
+                </div>
+                <div class="testimonial-slide swiper-slide">
+                    <a href="duet.html"><img src="img/testimonial02.png" alt=""></a>
+                    <h3>Duet</h3>
+                    <p>Dit is een mooie compacte tent die voor 2 man geschikt is.</p>
+                </div>
+                <div class="testimonial-slide swiper-slide">
+                    <a href="parade.html"><img src="img/testimonial03.png" alt=""></a>
+                    <h3>Parade</h3>
+                    <p>Dit is een erg grote en ruime tent die makkelijk in en uit te vouwen is.</p>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</div>
+
+<section class="section-contact" id="contact">
+    <div class="container">
+        <h1>Contact het team!</h1>
+        <p>Vul het onderstaande formulier in om in contact te komen
+        met een van onze teamleden. We proberen binnen 48 uur
+        contact met u op te nemen. Als we niet binnen die tijd reageren,
+        aarzel dan niet om het formulier opnieuw te gebruiken.
+        </p>
+
+        <form action="https://formspree.io/f/xaykanjo" method="POST">      
+            <input type="text" name="Voor" placeholder="Voornaam" autocomplete="off" required>
+            <input type="text" name="Achter" placeholder="Achternaam" autocomplete="off" required>
+            <input type="e-mail" name="e-mail" placeholder="E-mail Adres" autocomplete="off" required>
+            <textarea rows="5" cols="60" name="Bericht" placeholder="tekst invoeren" autocomplete="off" required></textarea>
+            <button type="indoene">Bericht versturen</button>
+        </form>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2023 by Arno Raijmakers | All Right Reserved.</p>
+    </div>
+
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bxs-chevron-up'></i></a>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
